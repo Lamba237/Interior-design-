@@ -38,6 +38,7 @@ header {
 .navbar li {
     list-style-type: none;
     text-align: none;
+    position: relative;
 }
 
 .navbar li a {
@@ -46,6 +47,18 @@ header {
     transition: 0.5 ease;
 }
 
-.navbar li a:hover {
+.navbar li a:hover,
+.navbar li a.active {
     color: darkcyan;
+}
+
+.navbar li a::after {
+    content: "";
+    width: 30%;
+    height: 1.5px;
+    background-color: darkcyan;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
 }
