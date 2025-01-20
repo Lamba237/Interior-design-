@@ -1,12 +1,27 @@
-/*Styling the logo image*/
-.logoImage img {
-    width: 50px;
-    height: 50px;
+/*Body styling*/
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
+.logoImage img {
+    width: 40px;
+    height: 30px;
 
-/*shopping cart icon*/
-.Cart img{
+}
+.Cart img {
     width: 25px;
     height: 25px;
-    
+}
+
+
+/*Header tag ((Will use flex here))*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: #E3E6F3;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0);
 }
