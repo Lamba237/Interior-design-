@@ -38,7 +38,6 @@ header {
 .navbar li {
     list-style-type: none;
     text-align: none;
-    position: relative;
 }
 
 .navbar li a {
@@ -50,15 +49,17 @@ header {
 .navbar li a:hover,
 .navbar li a.active {
     color: darkcyan;
+    text-shadow: 1px 1px 2px pink;
 }
 
-.navbar li a::after {
+.navbar li a::after,
+.navbar li a:hover::after {
     content: "";
-    width: 30%;
+    width: 35%;
     height: 1.5px;
     background-color: darkcyan;
     position: absolute;
     bottom: -4px;
-    left: 20px;
+    left: 2px;
 
 }
