@@ -65,7 +65,7 @@
 }
 
 .NavBar .hero-section h1 {
-    color: steelblue;
+    color: blueviolet;
     font-size: 40px;
     padding-left: 80px;
     font-weight: 700;
@@ -75,7 +75,7 @@
 }
 
 .NavBar .hero-section p {
-    padding-left: 80px;
+    padding-left: 90px;
     padding-top: 15px;
     font-weight: 500;
     color: white;
