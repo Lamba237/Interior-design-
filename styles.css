@@ -13,7 +13,7 @@
     background-image: url(./assets/backgroundimage.jpg);
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 103vh;
     width: 100%;
 }
 
@@ -32,6 +32,10 @@
     cursor: pointer;
 }
 
+.NavBar li a:hover {
+    color: purple;
+}
+
 .NavBar ul .furniture-home {
     font-size: 700;
     font-weight: 700;
@@ -40,4 +44,65 @@
     color: grey;
     font-family: cursive;
     font-style: oblique;
+}
+
+/* Styling the hero section*/
+.NavBar .hero-section {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+
+.NavBar .hero-section h4 {
+    color: white;
+    padding-top: 50px;
+    padding-left: 60px;
+    font-style: oblique;
+    text-overflow: ellipsis;
+    padding-bottom: 30px;
+    text-shadow: grey -0 2px;
+}
+
+.NavBar .hero-section h1 {
+    color: steelblue;
+    font-size: 40px;
+    padding-left: 80px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.NavBar .hero-section p {
+    padding-left: 80px;
+    padding-top: 15px;
+    font-weight: 500;
+    color: white;
+    font-style: italic;
+    box-shadow: wheat;
+    box-sizing: content-box;
+}
+
+.NavBar .hero-section .background-button {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavBar .hero-section a {
+    padding: 10px 20px;
+    color: black;
+    border: 2px solid white;
+    bottom: 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.NavBar .hero-section a:hover {
+    background-color: lightgrey;
+    color: purple
 }
