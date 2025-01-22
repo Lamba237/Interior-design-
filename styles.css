@@ -127,3 +127,9 @@
 .footer .NavFooter li a:hover {
     color: purple;
 }
+
+.footer .fade-in {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
