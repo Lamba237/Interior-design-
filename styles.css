@@ -13,7 +13,7 @@
     background-image: url(./assets/backgroundimage.jpg);
     background-position: center;
     background-size: cover;
-    height: 103vh;
+    height: 110vh;
     width: 100%;
 }
 
@@ -94,8 +94,8 @@
 .NavBar .hero-section a {
     padding: 10px 20px;
     color: black;
+    font-size: 18px;
     border: 2px solid white;
-    bottom: 50px;
     border-radius: 20px;
     text-decoration: none;
     background-color: wheat;
@@ -105,4 +105,25 @@
 .NavBar .hero-section a:hover {
     background-color: lightgrey;
     color: purple
+}
+
+/* footer styling */
+.footer .NavFooter ul {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+}
+
+.footer .NavFooter li a {
+    color: olivedrab;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer .NavFooter li a:hover {
+    color: purple;
 }
