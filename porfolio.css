@@ -36,3 +36,35 @@
 }
 
 /* Designing the porfolio section*/
+.intro-furniture h2 {
+    font-size: 50px;
+    font-weight: 500;
+    padding-left: 40px;
+    font-style: oblique;
+    color: grey;
+    font-family: monospace;
+}
+
+.intro-furniture h4 {
+    padding-left: 70px;
+    font-size: 20px;
+    font-family: monospace;
+    color: gray;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.sofar {
+    display: grid;
+    grid-template-columns: 350px 350px 400px;
+    grid-template-rows: 300px 300px 100px;
+    gap: 10px 20px;
+    padding-left: 40px;
+
+}
+.sofar .sofar-size img {
+    width: 90vh;
+    height: 350px;
+    border: 2px solid pink;
+    margin: 0;
+}
