@@ -74,10 +74,47 @@
     color: darksalmon;
 }
 .bedroom-furniture h4 {
-    font-weight: 500;
+    font-size: 40px;
     color: sandybrown;
 }
 
 .bedroom {
     border: 2px solid floralwhite
+}
+
+/*Dinning room*/
+.dinning-furniture h2 {
+    color: purple;
+}
+.dinning-furniture h4 {
+    font-size: 40px;
+    color: darkviolet;
+}
+
+/*Styling the footer*/
+/* footer styling */
+.footer .NavFooter ul {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+}
+
+.footer .NavFooter li a {
+    color: olivedrab;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer .NavFooter li a:hover {
+    color: purple;
+}
+
+.footer .fade-in {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
 }
