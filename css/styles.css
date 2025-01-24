@@ -10,7 +10,7 @@
 
 /*Header styling*/
 .NavBar {
-    background-image: url(./assets/backgroundimage.jpg);
+    background-image: url(../assets/backgroundimage.jpg);
     background-position: center;
     background-size: cover;
     height: 110vh;
