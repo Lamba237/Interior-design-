@@ -1,5 +1,5 @@
 <h1>Continuous Integration/Continuous Deployment (CI/CD)</h1>
-<img src="./assets/jenkins.png">
+<img src="./assets/jenkins.png" style="width: 100px;">
 <h2>Project Description</h2>
 <p>My project focuses on implementing a Continuous Integration/Continuous Deployment (CI/CD) pipeline using Jenkins, Docker, and GitHub. I aim to streamline the development process, ensuring rapid delivery and high-quality software.</p>
 
