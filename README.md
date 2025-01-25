@@ -1,5 +1,5 @@
 <h1>Continuous Integration/Continuous Deployment (CI/CD)</h1>
-!["Jenkins image"](assets/about/bed1.jpg)
+![Jenkins image](assets/about/bed1.jpg)
 <h2>Project Description</h2>
 <p>My project focuses on implementing a Continuous Integration/Continuous Deployment (CI/CD) pipeline using Jenkins, Docker, and GitHub. I aim to streamline the development process, ensuring rapid delivery and high-quality software.</p>
 
