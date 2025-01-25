@@ -1,9 +1,5 @@
 <h1>Continuous Integration/Continuous Deployment (CI/CD)</h1>
-<div style="display: flex; overflow-x: auto;">
-  <img src="./assets/bed1.jpg" alt="Image 1" style="margin-right: 10px;">
-  <img src="./assets/bed2.jpg" alt="Image 2" style="margin-right: 10px;">
-  <img src="./assets/bed3.jpg" alt="Image 3" style="margin-right: 10px;">
-</div>
+<img src="./assets/jenkins.png">
 <h2>Project Description</h2>
 <p>My project focuses on implementing a Continuous Integration/Continuous Deployment (CI/CD) pipeline using Jenkins, Docker, and GitHub. I aim to streamline the development process, ensuring rapid delivery and high-quality software.</p>
 
