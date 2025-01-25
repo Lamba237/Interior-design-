@@ -56,10 +56,10 @@
 
 <h4>Image of the sample website</h4>
 <div style="display: flex; overflow-x: auto;">
-    <img src="./assets/website/website1.PNG" alt="Website 1" style="margin-right: 10px;">
-    <img src="./assets/website/website2.PNG" alt="Website 2" style="margin-right: 10px;">
-    <img src="./assets/website/website3.PNG" alt="Website 3" style="margin-right: 10px;">
-  <img src="./assets/website/website4.PNG" alt="Website 4" style="margin-right: 10px;">
+    <img src="./assets/website/website1.jpg" alt="Website 1" style="margin-right: 10px;">
+    <img src="./assets/website/website2.jpg" alt="Website 2" style="margin-right: 10px;">
+    <img src="./assets/website/website3.jpg" alt="Website 3" style="margin-right: 10px;">
+  <img src="./assets/website/website4.jpg" alt="Website 4" style="margin-right: 10px;">
   </div>
 
 <h2>Conclusion</h2>
